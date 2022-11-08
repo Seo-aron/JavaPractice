@@ -4,9 +4,9 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class ColorTest44 extends JFrame{
+public class KeyChar extends JFrame{
 	JLabel la = new JLabel("<Enter>키로 배경색이 바뀝니다");
-	ColorTest44(){
+	KeyChar(){
 		super("KeyListener의 문자 키 입력 예제");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Container c = getContentPane(); // 컨텐트팬 알아내기
@@ -38,7 +38,7 @@ public class ColorTest44 extends JFrame{
 	}
 
 	public static void main(String[] args) {
-		new ColorTest44();
+		new KeyChar();
 	}
 
 }
