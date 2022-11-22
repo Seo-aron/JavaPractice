@@ -49,4 +49,4 @@ public class CheckBoxEx extends JFrame {
 		new CheckBoxEx();
 	}
 
-} 
+}
